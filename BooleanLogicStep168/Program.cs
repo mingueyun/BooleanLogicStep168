@@ -45,7 +45,7 @@ namespace BooleanLogicStep168
             string Ticket = Console.ReadLine();
             int nTicket = Convert.ToInt32(Ticket);
 
-            bool qual = nAge >= 15 && YesOrNo == false && nTicket <= 3;
+            bool qual = nAge >= 16 && YesOrNo == false && nTicket <= 3;
             Console.WriteLine("Qualified?\n" + qual);
             Console.ReadLine();
         }
